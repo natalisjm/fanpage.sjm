@@ -63,11 +63,7 @@ body{
     list-style-position: inside;
     line-height: 35px;
 }
-.caja__main{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: end;
-}
+
 .solo {
     justify-self: center;
 }
@@ -75,17 +71,8 @@ body{
 
  @-webkit-keyframes roll-in-right{0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-right{0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
 
-
-.caja__text {
-    width: 100%;
-    padding: 30px;
-    font-size: 20px;
-    line-height: 35px;
-} 
 .caja__main img {
-    width: 450px;
-    padding-right: 30px;
-    border-radius: 60px;
+    margin-top: 0px;
 }
 .principal {
     display: grid;
@@ -94,7 +81,6 @@ body{
 
 .principal__img img {
     width: 100%;
-    border-radius: 60px;
     justify-self: center;
 }
 /* <!-- inicia informacion de los Protagonistas mas importantes --> */
