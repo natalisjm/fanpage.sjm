@@ -142,11 +142,11 @@ body{
 
 
 /* contacto */
-.caja__formulario h1 {
+.caja h1 {
     display: flex;
     justify-content: center;
 }
-.caja__formulario form {
+/* .caja__formulario form {
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -157,7 +157,7 @@ body{
     line-height: 30px;
     border-style: dashed;
     border-width: 2px;
-}
+} */
 footer {
     background: #502324;
     padding: 40px;
@@ -341,4 +341,3 @@ footer img {
     }
 
 }
-
