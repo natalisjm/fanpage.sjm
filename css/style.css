@@ -139,25 +139,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
-
-/* contacto */
-.caja h1 {
-    display: flex;
-    justify-content: center;
-}
-/* .caja__formulario form {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 450px;
-    padding: 40px;
-    margin: auto;
-    margin-top: 100px;
-    line-height: 30px;
-    border-style: dashed;
-    border-width: 2px;
-} */
 footer {
     background: #502324;
     padding: 40px;
