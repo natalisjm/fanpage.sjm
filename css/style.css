@@ -131,7 +131,6 @@ body{
 .info__img2 img {
     border-radius: 60px;
     border-style: groove;
-    width: 630px;
 }
 
 /* banda sonora */
@@ -230,7 +229,7 @@ footer img {
     .menu .menutext {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-column: 6/ 12;
+        grid-column: 5/ 12;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -277,7 +276,7 @@ footer img {
     .menu .menutext {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-column: 6/ 12;
+        grid-column: 5/ 12;
         display: flex;
         align-items: center;
         justify-content: space-between;
