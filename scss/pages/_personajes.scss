@@ -1,0 +1,201 @@
+.principal {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.principal__img img {
+    width: 100%;
+    justify-self: center;
+}
+/* <!-- inicia informacion de los Protagonistas mas importantes --> */
+
+.info__derecha {
+    font-size: 25px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+
+    &__img {
+        line-height: 50px;
+    }
+
+    &__img {
+        display:grid;
+        justify-content: center;
+    }
+
+    &__text {
+        height: 350px;
+    }
+
+    &__text li {
+        line-height: 50px;
+    }
+
+    &__img img {
+        border-radius: 60px;
+        border-style: groove;
+    }
+}
+
+
+.info__izquierda {
+    font-size: 25px;
+    line-height: 50px;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "img2 text2";
+    
+    &__img2 {
+        grid-area: img2;
+    }
+    &_text2 {
+        grid-area: text2;
+    }
+
+    &__text2 li {
+        line-height: 50px;
+    }
+    &__img2 img {
+        border-radius: 60px;
+        border-style: groove;
+    }
+}
+
+
+@media screen and (max-width: 480px ) {
+
+    
+    .principal {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .principal__img {
+        margin-top: 30px;
+    }
+    .info__derecha {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "text"
+        "img";
+        height: 900px;
+    }
+    .info__img {
+        grid-area: img;
+    }
+    .info__text {
+        grid-area: text;
+    }
+    .info__img img {
+        width: 380px;
+        height: 475px;
+        margin-top: 30px;
+    }
+    .info__izquierda {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "text2"
+        "img2";
+    }
+    .info__text2 {
+        grid-area: text2;
+    }
+    .info__img2 {
+        grid-area: img2;
+    }
+    .info__text2 {
+        width: 380px;
+    }
+    .info__img2 img {
+        width: 380px;
+        height: 475px;
+        margin-top: 30px;
+    }
+
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .info__derecha {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .info__text {
+        width: 350px;
+    }
+    .info__img img {
+        width: 320px;
+        margin-top: 20px;
+    }
+    .info__izquierda {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "img2 text2";
+    }
+    .info__text2 {
+        grid-area: text2;
+    }
+    .info__img2 {
+        grid-area: img2;
+    }
+    .info__text2 {
+        justify-self: end;
+        width: 360px;
+    }
+    .info__img2 img {
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width: 1024px) {
+    
+
+    .info__derecha {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .info__text {
+        width: 400px;
+    }
+    .info__img img {
+        width: 300px;
+        height: 420px;
+        margin-top: 20px;
+    }
+    .info__izquierda {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .info__izquierda {
+        grid-template-areas: 
+        "imgporsche textporsche";
+    }
+    .info__img2 {
+        grid-area: imgporsche;
+    }
+    .info__text2 {
+        grid-area: textporsche;
+    }
+    .info__text2 {
+        width: 400px;
+        display: grid;
+        justify-self: end;
+        padding-left: 10px;
+    }
+    .info__img2 img {
+        width: 295px;
+        height: 420px;
+        margin-top: 20px;
+    }
+
+}

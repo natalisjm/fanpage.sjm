@@ -1,0 +1,43 @@
+.detalles li {
+    list-style: circle;
+    list-style-position: inside;
+    line-height: 35px;
+}
+.lista_personajes h1 {
+    font-size: 50px;
+    line-height: 70px;
+}
+.lista_personajes li {
+    list-style: circle;
+    list-style-position: inside;
+    line-height: 30px;
+}
+.lista_personajes li a {
+    text-decoration: none;
+    color: white;
+}
+.info_protagonistas li {
+    list-style: circle;
+    list-style-position: inside;
+    line-height: 35px;
+}
+
+.solo {
+    justify-self: center;
+}
+.roll-in-right{-webkit-animation:roll-in-right .7s ease-out both;animation:roll-in-right .6s ease-out both}
+
+ @-webkit-keyframes roll-in-right{0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-right{0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
+
+.caja {
+    
+    &__main img {
+        margin-top: 0px;
+    }
+    
+     &__main {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         grid-template-rows: repeat(1,1fr);
+        }
+}

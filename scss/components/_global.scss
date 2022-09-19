@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+body{
+    color: $primary;
+    background: rgb(80,14,16);
+    background: radial-gradient(circle, rgba(80,14,16,1) 0%, rgba(39,10,15,1) 100%);
+}
+.caja {
+    padding: 50px;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, .4);
+    overflow: hidden;
+}
